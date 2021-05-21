@@ -4,6 +4,27 @@
     background-color: midnightblue;
     color: orchid;
 }
+@media screen and (min-width:480px) {
+    .funky-background {
+        background-color: palegreen;
+        color: #333;
+    }
+}
+@media screen and (min-width: 780px) {
+    .funky-background {
+        background-color: pink;
+        color: royalblue;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .funky-background {
+        background-color: sandybrown;
+        color: slateblue;
+    }
+}
+    
+}
 body{
     text-align: center;
     margin:0;
